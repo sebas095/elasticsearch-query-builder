@@ -1,0 +1,35 @@
+{
+  "name": "elasticsearch-query-builder",
+  "version": "1.0.0",
+  "description": "In this [Tutorial](https://blog.logrocket.com/elasticsearch-query-body-builder-node-js/), we have made use of the elastic builder library, https://elastic-builder.js.org/. This library has been used to build our queries for search, instead of relying on raw elastic search queries.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app",
+    "dev": "nodemon src/app",
+    "seed": "node src/data/seed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebas095/elasticsearch-query-builder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sebas095/elasticsearch-query-builder/issues"
+  },
+  "homepage": "https://github.com/sebas095/elasticsearch-query-builder#readme",
+  "dependencies": {
+    "@elastic/elasticsearch": "^7.6.0",
+    "array.prototype.flatmap": "^1.2.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "elastic-builder": "^2.6.0",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.2"
+  }
+}
