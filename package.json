@@ -6,7 +6,9 @@
   "scripts": {
     "start": "node src/app",
     "dev": "nodemon src/app",
-    "seed": "node src/data/seed"
+    "seed": "node src/data/seed",
+    "dev:seed": "npm run seed && npm run dev",
+    "start:seed": "npm run seed && npm start"
   },
   "repository": {
     "type": "git",
